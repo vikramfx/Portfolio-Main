@@ -51,7 +51,7 @@
               id="sideNav"
               class="mainmenu-nav navbar-example2 d-none d-xl-block"
             >
-              <!-- Start Main  menu Nav -->
+              <!-- Start Mainmanu Nav -->
               <ul class="primary-menu nav nav-pills">
                 <li class="nav-item">
                   <a class="nav-link smoth-animation active" href="#home"
@@ -78,7 +78,7 @@
                   >
                 </li>
               </ul>
-              <!-- End Mainmenu Nav -->
+              <!-- End Mainmanu Nav -->
             </nav>
             <!-- Start Header Right  -->
             <div class="header-right">
@@ -249,22 +249,39 @@
                     </h1>
 
                     <div>
-                      <p class="description">
-                        I am an experienced Full-stack Developer, proficient in
-                        HTML, CSS, JavaScript, PHP, Node.js, Express.js, React,
-                        MongoDB, and MySQL. With a strong foundation in data
-                        structures and algorithms, particularly in C++, I focus
-                        on developing high-performance and scalable
-                        applications. I am skilled in data analysis, utilizing
-                        Python and Power BI to extract meaningful insights from
-                        complex datasets, driving data-driven decision-making. I
-                        thrive in fast-paced, dynamic environments, consistently
-                        delivering innovative solutions that meet and exceed
-                        project goals. Committed to continuous professional
-                        growth, I stay at the forefront of technology trends and
-                        constantly enhance my technical expertise.
+                      <p class="description shake-effect">
+                        I am an experienced Full-stack Developer, proficient in HTML, CSS, JavaScript, 
+                        PHP, Node.js, Express.js, React, MongoDB, and MySQL. With a strong foundation 
+                        in data structures and algorithms, particularly in C++, I focus on developing 
+                        high-performance and scalable applications.
+                      </p>
+                      <p class="description shake-effect">
+                        I am skilled in data analysis, utilizing Python and Power BI to extract meaningful 
+                        insights from complex datasets, driving data-driven decision-making. I thrive in 
+                        fast-paced, dynamic environments, consistently delivering innovative solutions 
+                        that meet and exceed project goals.
+                      </p>
+                      <p class="description shake-effect">
+                        Committed to continuous professional growth, I stay at the forefront of technology 
+                        trends and constantly enhance my technical expertise.
                       </p>
                     </div>
+                    
+                    <style>
+                      /* Shake animation */
+                      @keyframes shake {
+                        0%, 100% { transform: translateX(0); }
+                        25% { transform: translateX(-5px); }
+                        50% { transform: translateX(5px); }
+                        75% { transform: translateX(-5px); }
+                      }
+                    
+                      /* Apply animation on hover */
+                      .shake-effect:hover {
+                        animation: shake 0.5s ease-in-out;
+                      }
+                    </style>
+                    
                   </div>
                   <div class="row">
                     <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
@@ -300,17 +317,36 @@
                     <img
                       src="assets/images/slider/banner-01.png"
                       alt="Personal Portfolio Images"
+                      class="img-fluid shake-on-hover"
+                      style="border-radius: 15px;"
                     />
                   </div>
                 </div>
               </div>
+              
+              <style>
+                /* Shake animation */
+                @keyframes shake {
+                  0%, 100% { transform: translateX(0); }
+                  25% { transform: translateX(-5px); }
+                  50% { transform: translateX(5px); }
+                  75% { transform: translateX(-5px); }
+                }
+              
+                /* Apply animation on hover */
+                .shake-on-hover:hover {
+                  animation: shake 0.5s ease-in-out;
+                }
+              </style>
+              
+              
             </div>
           </div>
         </div>
       </div>
       <!-- End Slider Area -->
 
-      <!-- Start Service Area/ -->
+      <!-- Start Service Area -->
       <div
         class="rn-service-area rn-section-gap section-separator"
         id="features"
@@ -658,6 +694,48 @@
                     <h4 class="title">
                       <a href="https://vikramfx.github.io/E-commerce-shopping-website/(0)"
                         >A fully responsive shopping website built using HTML, CSS, and JavaScript
+                        <i class="feather-arrow-up-right"></i
+                      ></a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Portfolio -->
+
+
+            <!-- Start Single Portfolio -->
+            <div
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-once="true"
+              class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
+            >
+              <div
+                class="rn-portfolio"
+                data-toggle="modal"
+                data-target="#exampleModalCent"
+              >
+                <div class="inner">
+                  <div class="thumbnail" style="overflow: auto; height: 200px">
+                    <a href="https://vikramfx.github.io/Weather-web-app/">
+                      <img
+                        src="assets/images/portfolio/portfolio-05.jpg"
+                        style="height: 156px"
+                        alt="Personal Portfolio Images"
+                      />
+                    </a>
+                  </div>
+                  <div class="content">
+                    <div class="category-info">
+                      <div class="category-list">
+                        <a href="https://vikramfx.github.io/Weather-web-app/">Weather web app</a>
+                      </div>
+                      
+                    </div>
+                    <h4 class="title">
+                      <a href="https://vikramfx.github.io/Weather-web-app/"
+                        >A Weather Web App built using HTML, CSS, JavaScript, and Bootstrap
                         <i class="feather-arrow-up-right"></i
                       ></a>
                     </h4>
